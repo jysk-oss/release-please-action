@@ -1,3 +1,18 @@
+> [!IMPORTANT]
+> **This is a temporary fork of [googleapis/release-please-action](https://github.com/googleapis/release-please-action).**
+>
+> It exists only so the action bundles a `release-please` build carrying the
+> changes proposed in
+> [googleapis/release-please#2774](https://github.com/googleapis/release-please/pull/2774)
+> — see the `release-please` dependency in [`package.json`](package.json), which
+> points at [jysk-oss/release-please](https://github.com/jysk-oss/release-please)
+> rather than the published package. Nothing else is intended to differ from
+> upstream.
+>
+> Once that pull request is merged and released upstream, point the dependency
+> back at the published `release-please`, switch consumers back to
+> `googleapis/release-please-action`, and **delete this repository**.
+
 # Release Please Action
 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
